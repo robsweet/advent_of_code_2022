@@ -10,5 +10,4 @@ winner_payload = max(elves)
 
 combined_payload = sum(sorted(elves)[-3:])
 
-ipdb.set_trace()
 print(f"winner_payload: {winner_payload}, combined_payload: {combined_payload}")
